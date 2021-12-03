@@ -1,0 +1,134 @@
+*{
+
+  margin:0;
+
+  padding:0;
+
+  box-sizing: border-box;
+
+  user-select:none;
+
+}
+
+body {
+
+  display: grid;
+
+  place-items: center;
+
+}
+
+#card {
+
+  position: relative;
+
+  display:flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height:560px;
+
+  width:96%;
+
+  background: url("https://i.ibb.co/NZZDnp9/Photo-1209726765.jpg");
+
+  margin-top: 30px;
+
+  box-shadow: inset 3px 3px 10px, inset -1px -1px 2px;
+
+}
+
+#display {
+
+  width: 92%;
+
+  height:50px;
+
+  background:white;
+
+  padding:30px 20px;
+
+  font-family: cursive;
+
+  font-size:18px;
+
+  font-weight: bold;
+
+  border-radius: 15px;
+
+  display:none;
+
+}
+
+#author {
+
+  width: 92%;
+
+  height:10px;
+
+  background: rgba(0,900,0,0.3);
+
+  padding:15px;
+
+  font-family: cursive;
+
+  font-size:18px;
+
+  font-weight: bold;
+
+  border-radius: 15px;
+
+  display:none;
+
+  text-align: center;
+
+  margin-top:10px;
+
+}
+
+.name{
+
+  text-align: center;
+
+  margin-top:-10px;
+
+}
+
+.button {
+
+  height: 55px;
+
+  width:92%;
+
+  background:rgba(0,0,0,0.3);
+
+  border-radius: 25px;
+
+  margin-top:15px;
+
+  text-align:center;
+
+  font-family: monospace;
+
+  font-size:19px;
+
+  display:grid;
+
+  place-items: center;
+
+  color:#000000;
+
+  user-select: none;
+
+}
+
+.button:active {
+
+  box-shadow: 1px 1px 5px blue, -1px -1px 5px green;
+
+}
+
